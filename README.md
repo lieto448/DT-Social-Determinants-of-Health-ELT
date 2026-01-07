@@ -27,7 +27,20 @@ _Z4,ZIP+4,Suffix,Data is modeled at the 9-digit ZIP level
 
 ---
 
-### **1.1 Dátová architektúra**
 
-#### **ERD diagram**
-Surové dáta sú usporiadané v relačnom modeli, ktorý je znázornený na **entitno-relačnom diagrame (ERD)**:
+
+## **2 Dimenzionálny model**
+
+V ukážke bola navrhnutá **schéma hviezdy (star schema)** podľa Kimballovej metodológie, ktorá obsahuje 1 tabuľku faktov **`fact_household`**, ktorá je prepojená s nasledujúcimi  dimenziami:
+- **dim_diet**: Obsahuje podrobné informácie o trendoch v stravovaní.
+- **dim_finance**: Obsahuje stabilita, zaťaženie, poistenie a investície.
+- **dim_groceries**: Zahrňuje informácie o typov potravín , frekvenciu nákupov, vzdialenosti a preferencie obchodov.
+- **dim_habbits**: Obsahuje zdrávé, nezdravé a neutrálne správanie.
+- **dim_occupation**: Obsahuje informácie o zamestnaní.
+- **dim_wellness**: Skóre fyzického aj mentálneho zdravia.
+- **dim_home_enviroment** : Popisuje všetko čo sa nachádza v domácnosti ako psy, mačky, vek domu, počet aut
+
+![star schema](https://github.com/lieto448/DT-Social-Determinants-of-Health-ELT/blob/main/sdoh_star_schema.png)
+
+
+
