@@ -42,5 +42,7 @@ V ukážke bola navrhnutá **schéma hviezdy (star schema)** podľa Kimballovej 
 
 ![star schema](https://github.com/lieto448/DT-Social-Determinants-of-Health-ELT/blob/main/sdoh_star_schema.png)
 
+# _Slavomír Hriňa_
+
 
 
